@@ -1,3 +1,9 @@
+/* Fredoka - Skolappar-typsnitt */
+@font-face { font-family: 'Fredoka'; font-weight: 400; font-style: normal; font-display: swap; src: url('/fonts/fredoka-400.ttf') format('truetype'); }
+@font-face { font-family: 'Fredoka'; font-weight: 500; font-style: normal; font-display: swap; src: url('/fonts/fredoka-500.ttf') format('truetype'); }
+@font-face { font-family: 'Fredoka'; font-weight: 600; font-style: normal; font-display: swap; src: url('/fonts/fredoka-600.ttf') format('truetype'); }
+@font-face { font-family: 'Fredoka'; font-weight: 700; font-style: normal; font-display: swap; src: url('/fonts/fredoka-700.ttf') format('truetype'); }
+
 @import "@fontsource/inter/latin-400.css";
 @import "@fontsource/inter/latin-ext-400.css";
 @import "@fontsource/inter/latin-600.css";
@@ -812,4 +818,8 @@ button {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+/* Fredoka - gäller hela appen */
+html, body, button, input, select, textarea {
+  font-family: 'Fredoka', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
