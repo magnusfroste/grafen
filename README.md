@@ -4,7 +4,7 @@ Ett snabbt graffönster för gymnasiet – ett lättviktigt alternativ till GeoG
 behöver plotta, zooma och läsa av. Fungerar med fingrarna på iPad, med mus på datorn och i
 mobilen. Ingen inloggning, inga kakor, inga nätverksanrop.
 
-Byggt av [Skolappar](https://www.skolappar.com) · öppen källkod.
+**Spela:** https://grafen.skolappar.com · En del av [Skolappar](https://www.skolappar.com) – pedagogiska appar av föräldrar · öppen källkod (MIT)
 
 ## Vad du kan göra
 
@@ -59,7 +59,8 @@ Skärningspunkter räknas som nollställen till `f(x) - g(x)`.
 ## Integritet
 
 - Ingen spårning, inga kakor, ingen analys, inget konto.
-- Inga anrop till externa servrar. Typsnittet Inter ligger i paketet (`@fontsource/inter`).
+- Inga anrop till externa servrar. Typsnittet Fredoka ligger i appen (`public/fonts/`);
+  `@fontsource/inter` följer också med i bygget. Inga typsnitt hämtas utifrån.
 - Det enda som sparas är dina uttryck och din vy, i `localStorage` under nyckeln `grafen-v1`.
   Rensa webbläsardata så är det borta.
 
@@ -70,7 +71,7 @@ docker build -t grafen .
 docker run --rm -p 8080:8080 grafen
 ```
 
-Servern ligger bakom nginx med `deploy/nginx.conf`.
+Bygget serveras av nginx på port 8080 med `deploy/nginx.conf`.
 
 ## Struktur
 
@@ -88,4 +89,4 @@ scripts/selftest.mjs   självtest utan webbläsare
 
 ## Licens
 
-MIT.
+MIT – se [LICENSE](LICENSE).
