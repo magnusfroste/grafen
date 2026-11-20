@@ -6,6 +6,8 @@ mobilen. Ingen inloggning, inga kakor, inga nätverksanrop.
 
 **Spela:** https://grafen.skolappar.com · En del av [Skolappar](https://www.skolappar.com) – pedagogiska appar av föräldrar · öppen källkod (MIT)
 
+![Grafen](public/kort.png)
+
 ## Vad du kan göra
 
 - **Plotta upp till tre funktioner** samtidigt, i blått, cerise och petrol.
