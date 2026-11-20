@@ -60,7 +60,7 @@ Skärningspunkter räknas som nollställen till `f(x) - g(x)`.
 
 - Ingen spårning, inga kakor, ingen analys, inget konto.
 - Inga anrop till externa servrar. Typsnittet Fredoka ligger i appen (`public/fonts/`);
-  `@fontsource/inter` följer också med i bygget. Inga typsnitt hämtas utifrån.
+  `@fontsource/inter` följer med för etiketterna i grafen. Inga typsnitt hämtas utifrån.
 - Det enda som sparas är dina uttryck och din vy, i `localStorage` under nyckeln `grafen-v1`.
   Rensa webbläsardata så är det borta.
 
