@@ -823,3 +823,14 @@ button {
 html, body, button, input, select, textarea {
   font-family: 'Fredoka', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
+
+
+/* ---- iPad landskap: sidopanelen rullar i egen ruta, sidan gör det inte -- */
+@media (min-width: 1024px) and (max-height: 900px) {
+  .side {
+    max-height: calc(100dvh - 190px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 2px;
+  }
+}
