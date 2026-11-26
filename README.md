@@ -4,7 +4,7 @@ Ett snabbt graffönster för gymnasiet – ett lättviktigt alternativ till GeoG
 behöver plotta, zooma och läsa av. Fungerar med fingrarna på iPad, med mus på datorn och i
 mobilen. Ingen inloggning, inga kakor, inga nätverksanrop.
 
-**Spela:** https://grafen.skolappar.com · En del av [Skolappar](https://www.skolappar.com) – pedagogiska appar av föräldrar · öppen källkod (MIT)
+**Spela:** https://grafen.skolappar.org · En del av [Skolappar](https://www.skolappar.org) – pedagogiska appar av föräldrar · öppen källkod (MIT)
 
 ![Grafen](public/kort.png)
 
